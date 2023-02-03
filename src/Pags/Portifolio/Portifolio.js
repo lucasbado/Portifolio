@@ -5,7 +5,6 @@ import Fash from "../../Img/Fashion.jpg";
 import Evento from "../../Img/Eventos.jpg";
 import bkg from "../../Img/BkgPort.jpg"
 import { SlArrowDown } from "react-icons/sl";
-import Footer from "../../Componentes/Footer";
 
 function Portifolio() {
     return (

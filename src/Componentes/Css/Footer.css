@@ -1,61 +1,86 @@
+
+@font-face {
+    font-family: "Voga";
+    src: local("Voga"),
+      url(../../Fonts/Voga-Medium.otf) format("truetype");
+  }
+
+
 .Footer__main {
     display: flex;
     width: 100%;
-    height: 20%;
+    height: 11em;
     bottom: 0;
-    background-color: black;
-    z-index: -2;
+    background-color: #2d2c2c;
+    z-index: 2;
   }
   
   .Footer__content {
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-  }
-  
-  .Footer__text {
-    display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+    height: 100%;
+    line-height: 2.3em;
+
   }
-  
-  .Footer__social h1 {
-    font-size: 2em;
-    font-weight: 700;
-    margin-bottom: 0em;
-    color: rgb(154, 122, 91);
-  }
-  
-  .Footer__social p {
-    font-size: 1.4em;
-    font-weight: 400;
-    color: whitesmoke;
-  }
-  .Footer__social a {
-    color: #fff;
-  }
-  
-  .Footer__text .Footer__text h1 {
-    font-size: 2em;
-    font-weight: 700;
-    margin-bottom: 0em;
-    color: rgb(154, 122, 91);
-  }
-  
-  .Footer__text .Footer__text p {
-    font-size: 1.4em;
-    font-weight: 400;
-    color: whitesmoke;
-    text-decoration: none;
-  }
-  
-  .Footer__text .Footer__text a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.2em;
+
+
+.Footer__title{
+    color: #ab794e;
     margin: 1em;
-  }
-  
+    font-size: 1.3em;
+   
+}
+
+.Footer__title h1{
+    color: #f5a661;
+    text-decoration: none;
+    font-family: "Voga";
+    font-weight: 100;
+    font-size: 2.3em;
+    margin-bottom: 0.3em;
+}
+
+.Footer__title a{
+    color: #ca8b54;
+    text-decoration: none;
+    font-family: "Voga";
+    font-weight: 100;
+   
+}
+
+.Footer__text{
+    color: aliceblue;
+    font-family: "Voga";
+}
+
+.Footer__text h1{
+    color: aliceblue;
+    font-family: "Voga";
+    font-size: 1.3em;
+   
+
+}
+
+.Footer__social{
+    color: #ca8b54;
+    font-size: 2em;
+    margin: 2em;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+.Footer__social a{
+    color: #ca8b54;
+    text-decoration: none;
+    margin: 0.7em;
+}
+
+.Footer__social a:hover{
+    color: #ab794e;
+}
+.Footer__title a:hover{
+    color: #ab794e;
+}

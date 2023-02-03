@@ -45,14 +45,17 @@ html {
   color: white;
   font-size: 2.8em;
   border-radius: 32px 32px 32px 2px;
-  font-family: "Voga";
   line-height: 1;
   width: 40%;
   font-weight: 100;
   margin: 0;
   border-radius: 32px 32px 32px 2px;
-  opacity: 0;
-  
+  opacity: 0; 
+}
+
+.Portifolio__text p{
+  font-family: "Voga";
+  font-weight: 100;
 }
 
 .Portifolio__arrow{

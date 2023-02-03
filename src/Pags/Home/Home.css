@@ -16,6 +16,7 @@
   font-family: 'Playfair Display', serif;
   z-index: -1;
   background-color: #464646;
+
 }
 
 .Home__bkg {
@@ -65,16 +66,21 @@
   border: 1px solid rgba(34, 34, 33, 0.3);
   width: 35%;
   height: 55%;
+
 }
 
 .Name__main {
-  color: rgb(245, 166, 97);
+  color: #f5a661;
   font-size: 3.5rem;
   font-weight: 100;
-  padding: 0.1rem;
   background-color: rgba(132, 80, 43, 0.338);
   border-radius: 20px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Voga';
+}
+
+.Home__glass h1{
+  font-family: 'Voga';
+  font-weight: 200;
 }
 
 .Link__main {

@@ -17,6 +17,7 @@ function Cards(props) {
                 </div>
 
                 <div class="property-social-icons">
+                    
                     <a href="http://facebook.com">
                         <BsFacebook />
                     </a>

@@ -129,9 +129,9 @@ p {
   height: 7em;
 }
 
+
 .Cards__content:hover .property-social-icons {
   background-color: #2a2928;
-
   opacity: 1;
   -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -147,5 +147,12 @@ p {
 
 .Cards__content:hover .property-social-icons:hover a {
   cursor: pointer;
+  
+}
+.property-social-icons a:hover {
+  color: #ab794e;
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
