@@ -24,8 +24,8 @@ function Sobre() {
                     <a href='ttps://www.instagram.com/'>
                         <BsLinkedin />
                     </a>
-                    <a href="mailto:soo.eu.sil@gmail.com"> <GrMail/>
-                    
+                    <a href="mailto:soo.eu.sil@gmail.com"> <GrMail />
+
                     </a>
                 </p>
 

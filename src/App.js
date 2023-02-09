@@ -7,6 +7,7 @@ import Sobre from './Pags/Sobre/Sobre';
 import Logo from './Img/Logo.png';
 import Fashion from './Pags/Eventos/Fashion';
 import Footer from './Componentes/Footer';
+import Parcerias from './Pags/Parcerias/Parcerias';
 
 
 function App() {
@@ -19,13 +20,14 @@ function App() {
         <div className="Nav__img">
           <img src={Logo} alt="" />
         </div>
-        <Link to="/contact">Parcerias</Link>
-        <Link to="/contact">Sobre</Link>
+        <Link className='Disabled' to="#">Parcerias</Link>
+        <Link to="/Sobre">Sobre</Link>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Portifolio" element={<Portifolio />} />
-          <Route path="/contact" element={<Sobre />} />
+          <Route path="/Sobre" element={<Sobre />} />
+          <Route path="/Parcerias" element={<Parcerias />} />
           <Route path="/Fashion" element={<Fashion />} />
 
         </Routes>     
