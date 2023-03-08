@@ -1,7 +1,6 @@
 import React from "react";
 import './Home.css';
 import bkg from "../../Img/bkg.png"
-import Footer from "../../Componentes/Footer";
 
 function Home() {
     return (
